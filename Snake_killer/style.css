@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Snake';
+    src: url("BN-Snake.ttf");
+}
+
+@font-face {
+    font-family: 'Computer';
+    src: url("data-latin.ttf");
+}
+
+header{
+	font-family: 'Snake';
+	font-size: 300%;
+}
+
+#scoreDiv{
+	font-family: 'Computer';
+	font-size: 200%;
+	border-bottom: solid 2px white;
+}
+
+header, #scoreDiv{
+	width: 780px;
+	margin: auto;
+	padding: 10px;
+	color: green;
+	background-color: black;
+}
+
+/* Board elements */
+
+#board{
+	position: relative;
+	padding: 0;
+	margin: auto;
+	width: 800px;
+}
+
+.cells{
+	border: 0;
+	padding: 0;
+	float: left;
+	width: 20px;
+	height: 20px;
+	/*border: solid 1px lightgrey;*/
+}
